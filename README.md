@@ -4,5 +4,5 @@ This project displays the college courses that I have completed, am enrolled in,
 
 # To Do
 - [x] Create Card to display Classes
-- [] Create Database For Classes
-- [] Fetch all Classes from db 
+- [ ] Create Database For Classes
+- [ ] Fetch all Classes from db 
