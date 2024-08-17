@@ -1,0 +1,48 @@
+
+
+* {
+    --background-color: #000000;
+    --foreground-color: #121212;
+    --text-color: #FFFFFF;
+    --text-alt-color: #B3B3B3;
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+
+p {
+    color: var(--text-alt-color);
+}
+
+.card {
+
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 14em;
+    height: 16em;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    background-color: var(--foreground-color);
+    color: var(--text-color);
+    
+}
+
+.header {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5em;
+}
+
+.body {
+    flex-grow: 2;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid gray;
+}
+
+.footer {
+    padding-top: 0.5em;
+}
+
+
